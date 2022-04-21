@@ -16,4 +16,9 @@ describe("Unit Tests for UserService Class", () => {
         expect(list[2]).toBe("Josue");
         expect(list[3]).toBe("Biography")
     });
+    test('3) Update user username', () => {
+        const user = UserService.create(1, "josue9405", "Josue")
+        UserService.updateUserName(user,"tulio")
+        expect(user.username).toBe("tulio");
+    });
   }) 

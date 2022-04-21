@@ -13,6 +13,10 @@ class UserService{
         array.push(user.getBio)
         return array
     }
+
+    static updateUserName(user, userName){
+        user.setUserName = userName
+    }
 }
 
 module.exports = UserService
