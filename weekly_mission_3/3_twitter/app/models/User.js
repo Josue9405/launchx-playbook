@@ -17,6 +17,14 @@ class User{
         this.lastUpdated = lastUpdated ? lastUpdated : getCurrentDate();
     }
 
+    get getId(){
+        return this.id;
+    }
+
+    get getName(){
+        return this.name
+    }
+
     get getUserName(){
         return this.username
     }
