@@ -1,4 +1,4 @@
-const User = require('./../../models/User');
+const User = require('./../../app/models/User');
 
 describe("Unit Tests for User Class", () => {
     test('1) Create a user object', () => {
@@ -18,8 +18,6 @@ describe("Unit Tests for User Class", () => {
         expect(user.bio).toBe("Bio");
         expect(user.dateCreated).not.toBeUndefined()
         expect(user.lastUpdated).not.toBeUndefined()
-        console.log(user.dateCreated)
-        console.log(user.lastUpdated)
     });
     test('3) Usign getters', () => {
         const user = new User(1, "josue9405", "Josue", "Bio")
