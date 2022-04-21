@@ -1,0 +1,15 @@
+{
+  "name": "my_first_project",
+  "version": "1.0.0",
+  "description": "Mi primer proyect en JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node index.js"
+  },
+  "author": "Josue Avelar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
