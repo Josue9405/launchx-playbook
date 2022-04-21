@@ -1,0 +1,15 @@
+{
+  "name": "my_launchx_app",
+  "version": "1.0.0",
+  "description": "Práctica inicial de la semana 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js",
+    "start": "node index.js"
+  },
+  "author": "Josue Avelar",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
